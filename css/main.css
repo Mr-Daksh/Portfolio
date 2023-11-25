@@ -1,10 +1,6 @@
 /**
  * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
+
  *  TOC:
  *  01. webfonts and iconfonts
  *  02. base style overrides
@@ -28,13 +24,6 @@
  * =================================================================== 
  */
 
-
-/** 
- * ===================================================================
- * 01. webfonts and iconfonts - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
@@ -1111,7 +1100,7 @@ header .logo {
 }
 header .logo a {
 	display: block;
-	margin: 0;
+	margin: -5px;
 	padding: 0;
 	border: none;
 	/* font: 0/0 a; */
@@ -1122,6 +1111,9 @@ header .logo a {
 	height: 15px;
 	/* background: url("../images/logo.png") no-repeat center; */
 	background-size: 92px 15px;
+	font-weight: 900;
+	letter-spacing: 6px;
+	font-size: 18px;
 }
 
 /**
